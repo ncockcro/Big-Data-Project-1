@@ -28,7 +28,7 @@ public class ur {
     public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
 
 	// Create a tokenizer to parse each line going through in the format ( 1, 2 )
-        StringTokenizer it = new StringTokenizer(value.toString(), "\t");
+        StringTokenizer it = new StringTokenizer(value.toString(), "\t"); 
 
 	while(it.hasMoreTokens()) {
 
