@@ -34,7 +34,7 @@ public class ut {
 	while(it.hasMoreTokens()) {
 		user.set(Integer.parseInt(it.nextToken()));
 		item.set(Integer.parseInt(it.nextToken()));
-		rating.set(Float.parseFloat(it.nextToken()));
+		rating.set(Float.parseFloat(it.nextToken())); 
 
 		// Any rating greater than or equal to 3 will be sent to reducer
 		if(rating.get() >= 3.0) {
