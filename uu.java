@@ -32,7 +32,7 @@ public class uu {
 
 		// Set the user to be the first token and item to be the second
 		user.set(Integer.parseInt(it.nextToken()));
-		item.set(Integer.parseInt(it.nextToken()));
+		item.set(Integer.parseInt(it.nextToken())); 
 
 		// Passing the item as the key and the user as the value
 		context.write(item,user);
